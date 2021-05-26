@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEDIA FOCUS</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' http://onlineerp.solution.quebec 'unsafe-inline' 'unsafe-eval';** ">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -59,24 +60,21 @@
         </div>
         <br>
         <br>
-        <div class="container">
-            <div class="d-flex justify-content-center">
-                <button type="submit" onclick="showAddNewLink()" class="btn btn-primary btnWidth">Add New Link</button>
-            </div>
-        </div>
         <br>
-        <div class="container addSocial" id="addNew">
+        <div class="container" id="addNew">
             <div class="form-group">
                 <label for="image">Image Link:</label>
-                <input type="text" class="form-control" id="imageLink" placeholder="Enter direct link to your favorite icon" name="imageLink">
+                <input type="text" class="inputStyle form-control" id="imageLink" placeholder="Enter direct link to your favorite icon" name="imageLink" required>
             </div>
             <div class="form-group">
                 <label for="link">Social Link:</label>
-                <input type="text" class="form-control" id="socialLink" placeholder="Enter your social media link" name="socialLink">
+                <input type="text" class="inputStyle form-control" id="socialLink" placeholder="Enter your social media link" name="socialLink" required>
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" onclick="addNewLink()" class="btn btn-primary btnWidth">Add</button>
+                <button type="submit" id="addNewItem" class="btn btn-primary btnWidth">Add</button>
             </div>
+            <br>
+            <br>
         </div>
     </div>
     <script src="js/script.js">

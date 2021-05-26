@@ -79,10 +79,20 @@ hr {
 }
 
 .btnWidth {
-    width: 100% !important;
-    background-color: #2f5876 !important;
-    border-color: #2f5876 !important;
+    width: 100%;
+    background-color: #2f5876;
+    border-color: #2f5876;
+    /* color: #fff;
+    height: 40vh;
+    border-radius: 10px;
+    margin: 12px; */
 }
+
+
+/* 
+label {
+    margin: 12px;
+} */
 
 .addSocial {
     display: none;
@@ -91,4 +101,17 @@ hr {
 .newImage {
     width: 42px !important;
     margin-top: -5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.inputStyle {
+    width: 100%;
+    /* margin: 12px; */
+    /* height: 40vh;
+    outline: none;
+    border: 1px solid #2f5876;
+    border-radius: 10px; */
 }
