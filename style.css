@@ -25,8 +25,9 @@ a:visited {
   text-decoration: none;
 }
 
-img {
-  width: 30px;
+h1 img {
+  width: 40px;
+  border-radius: 50%;
 }
 
 .modal-header {
@@ -69,12 +70,9 @@ img {
   opacity: 1;
   width: 120px;
   cursor: pointer;
-}
-.flex i {
-  font-size: 35px;
   transition: all 0.4s ease-in-out;
-  color: #2f5876;
 }
-.flex i:hover {
-  color: #548db6;
+
+.flex img {
+  width: 30px;
 }
