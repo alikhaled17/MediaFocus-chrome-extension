@@ -9,6 +9,12 @@
 
 ## demo
 ### demo for installation
-![demo]()
+![demo](https://github.com/alikhaled17/chrome-apps-extension/blob/master/demo1.gif)
+
+
+### demo for usind
+![demo](https://github.com/alikhaled17/chrome-apps-extension/blob/master/demo2.gif)
+
+![demo](https://github.com/alikhaled17/chrome-apps-extension/blob/master/install.gif)
 
 
