@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="script-src 'self' 'sha256-wod2pU8z0nyNucf0rFAMhaiMH33A452rZdtx+s92y38='"> -->
+    <title>MEDIA FOCUS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="modal-Header container">
+        <h3 class="logo">
+            <img src="images/MEDIAFOCUSLogo.png" alt="Media Focus" class="logo-icon"> Media Focus
+            <span class="version">(1.0.0)</span>
+        </h3>
+    </div>
+    <div class="modal-Content container">
+        <p>Media Focus, to Quick launch your media websites!</p>
+    </div>
+    <hr>
+    <div class="modal-icon">
+        <div class="container" id="socialContainer">
+        </div>
+        <br>
+        <button id="Sittings" class="btn btn-primary btnWidth">Sittings</button>
+        <div class="container" id="addNew">
+            <h3>New Media</h3>
+            <div class="form-group">
+                <label for="link-label">Media Title</label>
+                <input type="text" class="inputStyle form-control" id="link-label" placeholder="Enter link label" required>
+            </div>
+            <div class="form-group">
+                <label for="social-link">Social Link</label>
+                <input type="text" class="inputStyle form-control" id="social-link" placeholder="Enter your social media link" required>
+            </div>
+            <div class="form-group">
+                <label for="favcolor">Icon Color</label>
+                <input type="color" class="inputStyle form-control" id="favcolor" name="favcolor" value="#ff0000">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button id="submit" class="btn btn-primary btnWidth">Add Media Link</button>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <script src="./popup.js" charset="utf-8"></script>
+</body>
+
+</html>

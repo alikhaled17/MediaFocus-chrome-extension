@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "MEDIA FOCUS",
+    "name":"MEDIA FOCUS",
     "description": "All your social media links in one place.",
     "version": "1.0.0",
     "icons": { "128": "images/icon128.png" },
     "browser_action": {
-        "default_icon": "images/icon.png",
-        "default_popup": "index.html"
+        "default_popup": "popup.html",
+        "default_title":"MEDIAFOCUS"
     },
-    "permissions": ["activeTab"]
+    "permissions": []
 }
